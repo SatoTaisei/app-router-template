@@ -33,7 +33,8 @@
           "internal",
           "parent",
           "sibling",
-          "index"
+          "index",
+          "type"
         ],
         "newlines-between": "always",
         "alphabetize": { "order": "asc", "caseInsensitive": true },
@@ -46,6 +47,10 @@
         ],
         "pathGroupsExcludedImportTypes": ["react"]
       }
+    ],
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      { "prefer": "type-imports" }
     ]
   },
   "settings": {
